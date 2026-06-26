@@ -514,6 +514,7 @@ uri_grants                                u:object_r:uri_grants_service:s0
 usagestats                                u:object_r:usagestats_service:s0
 usb                                       u:object_r:usb_service:s0
 user                                      u:object_r:user_service:s0
+user_recovery                             u:object_r:user_recovery_service:s0
 starting_at_board_api(202604, `
     uprobestats_service                   u:object_r:uprobestats_service:s0
 ')
