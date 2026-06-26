@@ -515,6 +515,7 @@ var (
 		"usb":                                    EXCEPTION_NO_FUZZER,
 		"uprobestats_service":                    EXCEPTION_NO_FUZZER,
 		"user":                                   EXCEPTION_NO_FUZZER,
+		"user_recovery":                          EXCEPTION_NO_FUZZER,
 		"uwb":                                    EXCEPTION_NO_FUZZER,
 		"vcn_management":                         EXCEPTION_NO_FUZZER,
 		"vibrator":                               EXCEPTION_NO_FUZZER,
