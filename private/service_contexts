@@ -500,6 +500,7 @@ thermalservice                            u:object_r:thermal_service:s0
 thread_network                            u:object_r:threadnetwork_service:s0
 tracing.proxy                             u:object_r:tracingproxy_service:s0
 tradeinmode                               u:object_r:tradeinmode_service:s0
+guardtalk_config_gate                     u:object_r:guardtalk_config_gate_service:s0
 translation                               u:object_r:translation_service:s0
 transparency                              u:object_r:transparency_service:s0
 trust                                     u:object_r:trust_service:s0

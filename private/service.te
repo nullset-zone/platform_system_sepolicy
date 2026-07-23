@@ -37,6 +37,8 @@ type task_continuity_service,       system_server_service, service_manager_type;
 type tracingproxy_service,          system_server_service, service_manager_type;
 type tradeinmode_service,           system_server_service, service_manager_type;
 type transparency_service,          system_server_service, service_manager_type;
+# GuardTalkOS T-SEC-P1-GTGATE: GT Config password gate binder service.
+type guardtalk_config_gate_service, system_api_service, system_server_service, service_manager_type;
 
 type accessor_trusty_keymint_comm_service, service_manager_type;
 type trusty_keymint_comm_service, service_manager_type;
