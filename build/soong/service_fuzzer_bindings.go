@@ -313,6 +313,8 @@ var (
 		"grammatical_inflection":                 EXCEPTION_NO_FUZZER,
 		"graphicsstats":                          EXCEPTION_NO_FUZZER,
 		"gpu":                                    []string{"gpu_service_fuzzer"},
+		// Java binder service (GuardTalk Config gate) — auto C++ fuzzers unsupported (b/287102710)
+		"guardtalk_config_gate":                  EXCEPTION_NO_FUZZER,
 		"hardware":                               EXCEPTION_NO_FUZZER,
 		"hardware_properties":                    EXCEPTION_NO_FUZZER,
 		"hdmi_control":                           EXCEPTION_NO_FUZZER,
